@@ -8,7 +8,11 @@ namespace Submarino1
     {
         // Declare video graphics card
         GraphicsDeviceManager graphics;
+
         SpriteBatch spriteBatch;
+
+        // Declare background image
+        Texture2D background;
 
         public Game1()
         {
@@ -37,7 +41,8 @@ namespace Submarino1
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            // Load background image
+            background = Content.Load<Texture2D>("fig_fundo");
         }
 
         protected override void UnloadContent()
@@ -59,7 +64,15 @@ namespace Submarino1
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            // Start drawing process
+            spriteBatch.Begin();
+
+            // Draw image
+            spriteBatch.Draw(background, Vector2.Zero, Color.White);
+
+            // End drawing process
+            spriteBatch.End();
+
 
             base.Draw(gameTime);
         }
