@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submarino1", "Submarino1\Submarino1.csproj", "{ADB4EA3D-57CA-424E-9CBE-E09D7CDCF81A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB4EA3D-57CA-424E-9CBE-E09D7CDCF81A}.Debug|x86.ActiveCfg = Debug|x86
+		{ADB4EA3D-57CA-424E-9CBE-E09D7CDCF81A}.Debug|x86.Build.0 = Debug|x86
+		{ADB4EA3D-57CA-424E-9CBE-E09D7CDCF81A}.Release|x86.ActiveCfg = Release|x86
+		{ADB4EA3D-57CA-424E-9CBE-E09D7CDCF81A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C057BE6-B806-4475-9631-CB77A5A67D40}
+	EndGlobalSection
+EndGlobal
