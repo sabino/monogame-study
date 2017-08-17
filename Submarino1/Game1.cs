@@ -24,7 +24,10 @@ namespace Submarino1
             graphics.PreferredBackBufferHeight = 768;
 
             // Set to fullscreen
-            graphics.IsFullScreen = true;
+            // graphics.IsFullScreen = true;
+
+            // Apply settings
+            graphics.ApplyChanges();
 
             base.Initialize();
         }
