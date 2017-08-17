@@ -6,11 +6,13 @@ namespace Submarino1
 {
     public class Game1 : Game
     {
+        // Declare video graphics card
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
         public Game1()
         {
+            // Instantiate current graphics card
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
