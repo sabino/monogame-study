@@ -6,7 +6,7 @@
         {
             "taskName": "build",
             "type": "process",
-            "command": "C:\\Users\\fgsab\\Documents\\Visual Studio 2017\\Compiler\\hMSBuild.bat",
+            "command": "%USERPROFILE%\\Documents\\Visual Studio 2017\\Compiler\\hMSBuild.bat",
             "args": [
                 // Ask msbuild to generate full paths for file names.
                 "/property:GenerateFullPaths=true",
